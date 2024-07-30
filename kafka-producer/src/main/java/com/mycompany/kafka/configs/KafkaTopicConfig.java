@@ -1,2 +1,15 @@
-package com.mycompany.kafka.configs;public class KafkaTopicConfig {
+package com.mycompany.kafka.configs;
+
+import lombok.RequiredArgsConstructor;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@RequiredArgsConstructor
+public class KafkaTopicConfig {
+
+    @Bean
+    public WikiMediaProperties getWikiMediaProperties() {
+        return new WikiMediaProperties();
+    }
 }
