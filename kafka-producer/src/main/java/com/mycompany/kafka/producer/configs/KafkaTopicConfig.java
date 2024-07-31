@@ -1,4 +1,4 @@
-package com.mycompany.kafka.configs;
+package com.mycompany.kafka.producer.configs;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;

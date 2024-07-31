@@ -16,6 +16,7 @@
 	<description>wiki-media-kafka-microservices-parent</description>
 	<modules>
 		<module>kafka-producer</module>
+		<module>Kafka-Consumer-To-MySqlDB</module>
 	</modules>
 	<packaging>pom</packaging>
 

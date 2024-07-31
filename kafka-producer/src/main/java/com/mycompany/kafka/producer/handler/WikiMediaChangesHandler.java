@@ -1,4 +1,4 @@
-package com.mycompany.kafka.handler;
+package com.mycompany.kafka.producer.handler;
 
 import com.launchdarkly.eventsource.EventHandler;
 
