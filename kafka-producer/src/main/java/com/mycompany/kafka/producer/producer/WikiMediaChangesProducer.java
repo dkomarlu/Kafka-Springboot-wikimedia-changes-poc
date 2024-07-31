@@ -1,9 +1,9 @@
-package com.mycompany.kafka.producer;
+package com.mycompany.kafka.producer.producer;
 
 import com.launchdarkly.eventsource.EventHandler;
 import com.launchdarkly.eventsource.EventSource;
-import com.mycompany.kafka.configs.WikiMediaProperties;
-import com.mycompany.kafka.handler.WikiMediaChangesHandler;
+import com.mycompany.kafka.producer.configs.WikiMediaProperties;
+import com.mycompany.kafka.producer.handler.WikiMediaChangesHandler;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

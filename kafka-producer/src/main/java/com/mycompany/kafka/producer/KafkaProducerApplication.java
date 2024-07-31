@@ -1,6 +1,6 @@
-package com.mycompany.kafka;
+package com.mycompany.kafka.producer;
 
-import com.mycompany.kafka.producer.WikiMediaChangesProducer;
+import com.mycompany.kafka.producer.producer.WikiMediaChangesProducer;
 import lombok.AllArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
